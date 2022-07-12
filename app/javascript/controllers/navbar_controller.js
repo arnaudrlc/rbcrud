@@ -4,7 +4,6 @@ export default class extends Controller {
   connect() {
 
     const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-    console.log($navbarBurgers);
 
     $navbarBurgers.forEach( el => {
         el.addEventListener('click', () => {
